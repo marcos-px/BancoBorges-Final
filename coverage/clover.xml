@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1665442539942" clover="3.2.0">
+  <project timestamp="1665442539942" name="All files">
+    <metrics statements="68" coveredstatements="25" conditionals="24" coveredconditionals="5" methods="22" coveredmethods="10" elements="114" coveredelements="40" complexity="0" loc="68" ncloc="68" packages="5" files="8" classes="8"/>
+    <package name="adapters.connectors">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="cepfactory.api.ts" path="/mnt/d/Projetos/Gama/XP44/TypeScript/aula07-pratica/src/adapters/connectors/cepfactory.api.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="adapters.repositories">
+      <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+      <file name="clients.repository.ts" path="/mnt/d/Projetos/Gama/XP44/TypeScript/aula07-pratica/src/adapters/repositories/clients.repository.ts">
+        <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="domain.usecases.clients">
+      <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="create.client.usecase.ts" path="/mnt/d/Projetos/Gama/XP44/TypeScript/aula07-pratica/src/domain/usecases/clients/create.client.usecase.ts">
+        <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infrastructure.apis.cep">
+      <metrics statements="18" coveredstatements="7" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="2"/>
+      <file name="apicep.api.ts" path="/mnt/d/Projetos/Gama/XP44/TypeScript/aula07-pratica/src/infrastructure/apis/cep/apicep.api.ts">
+        <metrics statements="7" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="apicepfactory.api.ts" path="/mnt/d/Projetos/Gama/XP44/TypeScript/aula07-pratica/src/infrastructure/apis/cep/apicepfactory.api.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+      <file name="viacep.api.ts" path="/mnt/d/Projetos/Gama/XP44/TypeScript/aula07-pratica/src/infrastructure/apis/cep/viacep.api.ts">
+        <metrics statements="9" coveredstatements="6" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="viacepfactory.api.ts" path="/mnt/d/Projetos/Gama/XP44/TypeScript/aula07-pratica/src/infrastructure/apis/cep/viacepfactory.api.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infrastructure.persistence">
+      <metrics statements="36" coveredstatements="10" conditionals="16" coveredconditionals="2" methods="9" coveredmethods="3"/>
+      <file name="array.database.ts" path="/mnt/d/Projetos/Gama/XP44/TypeScript/aula07-pratica/src/infrastructure/persistence/array.database.ts">
+        <metrics statements="36" coveredstatements="10" conditionals="16" coveredconditionals="2" methods="9" coveredmethods="3"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="22" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="80" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="88" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
